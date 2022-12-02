@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@color/blec"
+                                                   android:orientation="vertical"
+                                                   android:gravity="center"
+                                                   tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/dayxml" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="503dp"
+                    >
+
+                <Button
+                    android:layout_marginLeft="40dp"
+                    android:background="#DB6B42"
+                    android:id="@+id/btn_sporting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="스포팅 그룹의 특징" >
+
+                </Button>
+                <Button
+                    android:background="#DB6B42"
+                    android:id="@+id/btn_hound"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="하운드 그룹의 특징" >
+
+                </Button>
+                <Button
+                    android:layout_marginLeft="20dp"
+                    android:background="#DB6B42"
+                    android:id="@+id/btn_working"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="워킹 그룹의 특징" >
+
+                </Button>
+
+                </TableRow>>
+                <TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    />
+                    <Button
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#DB6B42"
+                        android:id="@+id/btn_terrier"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="테리어 그룹의 특징" >
+
+                    </Button>
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#DB6B42"
+                        android:id="@+id/btn_toy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="토이 그룹의 특징" >
+
+                    </Button>
+                    <Button
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="#DB6B42"
+                        android:id="@+id/btn_nonsporting"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="논스포팅 그룹의 특징" >
+
+                    </Button>
+                </TableRow>
+                <TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:src="@drawable/dayxml"
+                    />
+
+                    <Button
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#DB6B42"
+                        android:id="@+id/btn_herding"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="허딩 그룹의 특징" >
+
+                    </Button>
+
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#DB6B42"
+                        android:id="@+id/read_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="그룹에 없는 반려견은 이곳에서 검색"
+                        android:layout_span="2">
+
+                    </Button>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="#DB6B42"
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="홈"
+            android:textSize="18sp" />
+        <Button
+            android:background="#DB6B42"
+
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="지도"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:background="#DB6B42"
+
+            android:id="@+id/btn2"
+            android:layout_width="104dp"
+            android:layout_height="59dp"
+            android:text="장소추천"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp" />
+
+
+        <Button
+            android:background="#DB6B42"
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="사료"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".KcalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/table_outside"
+            android:layout_marginTop="20dp"
+            android:text="칼로리 계산하기"
+            android:textSize="30sp"></TextView>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            >
+
+            <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/table_outside"
+            android:layout_marginTop="15dp"
+            android:text="일일 권장 칼로리 구해는 법"
+            android:textSize="20sp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="권장 칼로리 (MER) = 기초 대사량 (PER) X 활동 수치"
+            android:textSize="15sp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="기초 대사량(PER) 계산법"
+            android:background="@drawable/table_outside"
+            android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="체중 2Kg ~ 45Kg 미만 : 30 X 체중 + 70"
+                    android:textSize="15sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="체중 2Kg 미만 45Kg 이상 : 70 X (체중 X 0.75)"
+                    android:textSize="15sp"></TextView>
+
+        </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/table_outside"
+                android:layout_marginTop="10dp"
+                android:text="활동수치 기준표"
+                android:textSize="20sp"></TextView>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="503dp" >
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="중성화 된 성견(보통 활동량)"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1.6"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="중성화 되지 않은 성견(보통 활동량)"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1.8"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="체중 감량 필요"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="체중 증량 필요"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1.7"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="가벼운 활동"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="적당한 활동"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="강한 활동"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="임신 초기"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1.8"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="임신 후기"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="수유부"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="4~6"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="1~4개월 새끼 강아지"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                android:background="@drawable/table_outside">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_inside"
+                    android:text="4~12개월 새끼 강아지"
+                    android:textSize="17sp"
+                    android:layout_span="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="17sp"
+                    android:background="@drawable/table_inside"
+                    android:layout_span="1"/>
+
+
+            </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/table_outside"
+                android:text="계산하기"
+                android:textSize="20sp"></TextView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+                <EditText
+                    android:id="@+id/et_per"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="기초대사량"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="numberDecimal"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/et_po"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="활동수치"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="numberDecimal"
+                    ></EditText>
+                <Button
+                    android:id="@+id/btn_mer"
+                    android:text="계산"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    ></Button>
+                <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="권장 칼로리"
+                  android:textSize="20sp"
+                  android:layout_marginLeft="10dp"
+                  android:id="@+id/text_mer">
+                </TextView>
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/et_per1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="체중 2Kg~45Kg 미만"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="numberDecimal"
+                    ></EditText>
+
+
+                <Button
+                    android:id="@+id/btn_per1"
+                    android:text="계산"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    ></Button>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기초 대사량"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text_per1">
+                </TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/et_per2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="  2Kg 이하 45Kg 이상"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="numberDecimal"
+
+                    ></EditText>
+
+
+                <Button
+                    android:id="@+id/btn_per2"
+                    android:text="계산"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    ></Button>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기초 대사량"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text_per2">
+                </TextView>
+
+
+            </LinearLayout>
+
+        </TableLayout>
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

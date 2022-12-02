@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedtipActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="사료 종류 및 특징"
+                    android:textSize="20sp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="1. 건식 2. 습식 3.생식 4. 동결 건조 사료"
+                    android:textSize="15sp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 건식 사료의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="특징 : 건식 사료는 가장 오래된 형태의 사료오 분쇄, 건조 등의 괒어을 거쳐 비스켓 형태를 가지고 있다."
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="장점 :1. 강아지 이빨에 잔여물이 잘 남지 않아서 치석도 비교적 덜 쌓이는편 "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="장점 :2. 장기간 보관할 수 있고 비교적 가격도 합리적 "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="단점 :1. 건사료의 경우 수분이 적은 만큼 강아지가 물을 많이 마시는지 확인해야한다. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="2. 습식 사료의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="특징 : 캔이나 팩 등에 포장되는 스튜 형태이며 수분이 많기 때문에 음수량이 높을 수 있다."
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="장점 :1. 수분이 부드러워 턱/잇몸 등이 약한 경우 급여하기 좋다. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="장점 :2. 원재료 형태가 잘 보존되어 있고 약을 먹야야 할 때 좋다. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="단점 :1. 강아지 입이나 입 주변 털에 많이 묻을 수 있다. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 생식 사료의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="특징 : 재료 본연의 형태를 유지하는걸 의미한다."
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="장점 :1. 일반적으로 ㅅ소화가 잘되고 피부 트러블 및 모질 개선에도 도움이 된다. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="장점 :2. 생뼈를 함께 급여해 껌처럼 물고 뜯게 하는 경우 치아 건강과 스트레스 해소에 도움이 된다.. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="단점 :1. 면역력이 약하다면 살모넬라균에 감염되어 식중독 위험이 있다. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="4. 동결 건조 사료의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="특징 : 음식을 냉동시킨 후 음식 속 얼어있는 수분을 수증기로 만들어 건조하는 방법"
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="장점 :1. 건사료보다 수분 함량이 낮아 오래동안 보관 할 수 있다. "
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="단점 :1. 제조 과정이 복합하고 좋은 재료를 사용해 가격대가 높은 편이다. "
+                    android:textSize="10sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="사료 성분표에서 중요한 부분!!"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="1. 수분함량"
+                    android:textSize="15sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text=" AAFCO 기준은 수분이 0%이 때가 기준입니다. 수분 함량을 확인한 후 단백질, 지방 비율을 계산해야 한다. 성분함량 = 성분(%)/(1-수분%)"
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="2. 칼슘과 인의 비율"
+                    android:textSize="15sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="단백질이나 지방도 중요하지만 칼슘과 인의 비율이 1:1~2:1로 잘 맞는지도 확인해야 한다."
+                    android:textSize="10sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="3. 탄수화물"
+                    android:textSize="15sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="단백질이나 지방도 중요하지만 칼슘과 인의 비율이 1:1~2:1로 잘 맞는지도 확인해야 한다."
+                    android:textSize="10sp"></TextView>
+            </TableLayout>
+        </TableLayout>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

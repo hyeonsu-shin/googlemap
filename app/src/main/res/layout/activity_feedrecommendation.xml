@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:orientation="horizontal"
+                                                   tools:context=".FeedrecommendationActivity"
+                                                   android:background="@color/blec">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="사료 추천">
+            </TextView>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="100g당 300Kcal대 사료"
+                    android:textSize="20sp"></TextView>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/softsalmonxml">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/mealfreexml">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/freerunduckxml">
+                    </ImageView>
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="이즈칸 소프트 살몬 "
+                        android:textSize="13sp"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="로우즈 독 밀프리 LID연어 "
+                        android:textSize="13sp"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:text="아카나 싱글즈 프리런덕"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/kg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="6Kg 39,920원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/kg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="1.5Kg 55,800원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/kg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="6Kg 62,500원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 315Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 338Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 339Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="100g당 3~400Kcal대 사료"
+                    android:textSize="20sp"></TextView>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bigbitesxml">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lamb30xml">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pumpkinxml">
+                    </ImageView>
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="빅독 빅바이트 캥거루"
+                        android:textSize="13sp"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="이즈칸 램 30"
+                        android:textSize="13sp"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:text="파미나 펌프킨 멧돼지"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/kg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="1Kg 92,900원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/kg5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:src="@drawable/dogxml"
+                        android:text="7.5Kg 49,900원"></TextView>
+
+                    <TextView
+                        android:id="@+id/kg6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="7Kg 100,700원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 370Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 390Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 435Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="100g당 400Kcal대 사료"
+                    android:textSize="20sp"></TextView>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/proplanxml">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/originalxml">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bwildxml">
+                    </ImageView>
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="퓨리나 프로플랜 퍼포먼스"
+                        android:textSize="13sp"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="카르나4 오리지널 치킨"
+                        android:textSize="13sp"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:text="몬지 비와일드 오리"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/kg7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="17Kg 66,000원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/kg8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="1.36Kg 43,900원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/kg9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="2.5Kg 54,000원"
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 439Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 440Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="100g 당 470Kcal "
+                        android:src="@drawable/dogxml">
+                    </TextView>
+                </TableRow>
+
+
+        </TableLayout>
+
+        </TableLayout>
+        <Button
+            android:background="#DB6B42"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:background="@color/blec"
+              tools:context=".FeedActivity"
+              android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dogxml"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:background="#DB6B42"
+            android:id="@+id/btn_feed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:text="칼로리 계산"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#DB6B42"
+            android:id="@+id/btn_feed2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사료 추천"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_feed3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DB6B42"
+            android:text="산책용품추천"
+            android:textSize="30sp" />
+
+        <Button
+            android:background="#DB6B42"
+            android:id="@+id/btn_feed4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  사료 Tip  "
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn4"
+        android:background="#DB6B42"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="홈"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn1"
+        android:background="#DB6B42"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="지도"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:background="#DB6B42"
+        android:layout_width="104dp"
+        android:layout_height="59dp"
+        android:text="장소추천"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp" />
+
+
+    <Button
+        android:background="#DB6B42"
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="사료"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

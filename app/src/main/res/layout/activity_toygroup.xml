@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".ToygroupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="토이 그룹의 특징"
+                    android:textSize="20sp"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="1. 견종"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="1. 말티즈 2. 시츄 3. 요크셔 테리어 4. 토이푸들 5. 치와와"
+                    android:textSize="13sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="6. 포메라니안 7. 페키니즈 8. 파피용 9. 퍼그 등"
+                    android:textSize="13sp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="2. 토이 그룹의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 국내에서는 소형견을 주로 키우기 때문에 우리가 가장 흔하게 접하는 그룹 "
+                    android:textSize="13sp"></TextView>
+                ㅍ                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="2. 매일 30분에서 ~ 1시간의 운동이 권장되는데, 쉽게 지칠 수 있는 만큼 중간 강도로 2~3회 나누어서 하는게 좋다."
+                android:textSize="13sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 특히, 퍼그나 페키니즈와 같은 단두종이라면 호흡기에 무리가 갈 수 있기 때문에 여러번 운동을 하는 것이 필요하다.  "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text=" 4. 토이 그룹은 크기가 작기 때문에 꼭 밖에 나가지 않아도 집에서 운동량을 채울 수 있다. "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text=" 5. 특히, 던져진 공이나 인형을 몰고 오는 것을 참 좋아하니, 밖에 나가지 못하는 날에는 집에서 운동 시간을 가져보자 "
+                    android:textSize="13sp"></TextView>
+            </TableLayout>
+        </TableLayout>
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

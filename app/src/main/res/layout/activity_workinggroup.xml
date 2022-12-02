@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".WorkinggroupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="워킹 그룹의 특징"
+                    android:textSize="20sp"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="1. 견종"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="1. 도베르만 2. 로트와일러 3. 사모예드 4. 세인트 버나드 5. 말라뮤트 6. 복서"
+                    android:textSize="13sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="7. 시베리안 허스키 8. 마스티프 9. 아키타 10. 케인 코르소 11. 핀셔 등"
+                    android:textSize="13sp"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="2. 워킹 그룹의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 강인한 신체능력은 물론 뛰어난 학습능력을 지니고 있어 수레나 무거운 짐을 끄는데에 이용되었다. 현재는 군견, 구조견 등으로 활동하기도 한다."
+                  android:textSize="13sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="2. 고빈이 쎄서 개를 처음 키운다면 훈련이 특히 중요하다. "
+                android:textSize="13sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 운동량의 경우, 매일 중간 이상의 강도로 2시간 이상 하는 것이 권장된다.  "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text=" 4. 특히, 지구력이 강하기 때문에 짧고 빠르게 뛰는 것보다 무거운 짐을 끄는 것이나 등산 등의 활동을 즐긴다. "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text=" 5. 등산을 할때에는 평지보다 장애물이 적당히 있고 다양한 지형으로 구성된 곳을 좋아한다. "
+                    android:textSize="13sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text=" 6. 산책시킬때는 강아지용 베낭을 짊어지게 하여 중량감을 실어주면 운동효과가 뛰어나다. "
+                    android:textSize="13sp"></TextView>
+            </TableLayout>
+        </TableLayout>
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

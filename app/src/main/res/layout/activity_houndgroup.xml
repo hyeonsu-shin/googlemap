@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".HoundgroupActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="하운드 그룹의 특징"
+                    android:textSize="20sp"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="1. 견종"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="1. 그레이하운드 2. 아프간 하운드 3. 보르조이 4. 살루키 5. 휘핏 "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="6. 닥스훈트 7. 바셋 하운드 8. 비글 등 "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="2. 하운드 그룹의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 시각을 주로 사용하는 시각 하운드와 후각 감지능력이 뛰어난 후각 하운드로 나누어진다. "
+                    android:textSize="13sp"></TextView>
+                ㅍ                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="2. 1번 부터 5번 견종들은 시각 하운드로 주중에 20~30분 정도의 산책을 하고 주말에 빠른 달리기를 하면 운동량이 채워진다. "
+                android:textSize="13sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="3. 6번 7번 8번 견종들은 매일 1시간 이상의 운동량이 권장된다.  "
+                    android:textSize="13sp"></TextView>
+
+            </TableLayout>
+        </TableLayout>
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

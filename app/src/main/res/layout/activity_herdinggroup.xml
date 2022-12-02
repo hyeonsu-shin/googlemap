@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".HerdinggroupActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/table_outside"
+                    android:layout_marginTop="10dp"
+                    android:text="허딩 그룹의 특징"
+                    android:textSize="20sp"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="1. 견종"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="1. 셔틀랜드 쉽독 2. 보더콜리 3. 웰시코기 4. 저먼 셰퍼드 등"
+                    android:textSize="13sp"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="2. 허딩 그룹의 특징"
+                    android:background="@drawable/table_outside"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 기존에는 모두 워킹 그룹으로 분류 되었으나, 그 중 일부가 허딩 그룹으로 새롭게 분류가 되었다. "
+                    android:textSize="13sp"></TextView>
+                ㅍ                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="2. 똑똑할 뿐만 아니라 에너지가 넘치기 때문에 지루해지면 행동적 문제를 보이는 경향이 있다.  "
+                android:textSize="13sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="따라서 강한 강도로 1~1.5시간 이상 매일 운동을 시키는 것이 필요하다. "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text=" 3. 운동 패턴이 매번 똑같으면 지루해하기도 한다. "
+                    android:textSize="13sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text=" 5. 숨바꼭질이나 공놀이 등 다양한 방법을 시도하여 신체 및 두뇌활동을 함께 하는 것이 중요하다. "
+                    android:textSize="13sp"></TextView>
+            </TableLayout>
+        </TableLayout>
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

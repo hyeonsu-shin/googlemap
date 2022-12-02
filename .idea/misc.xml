@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1965" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/babionxml.xml" value="0.221" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/bemypetxml.xml" value="0.2445" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/bigbitesxml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/bwildxml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/dayxml.xml" value="0.219" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/ddangsxml.xml" value="0.2445" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/dogxml.xml" value="0.1965" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/feedbagxml.xml" value="0.212" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/feedcalculatorxml.xml" value="0.1145" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/freerunduckxml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/greenxml.xml" value="0.221" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/lamb30xml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/mealfreexml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/myxml.xml" value="0.2445" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/originalxml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/petrium.xml" value="0.221" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/proplanxml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/pumpkinxml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/rescoxml.xml" value="0.221" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/richdogsxml.xml" value="0.221" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/softsalmonxml.xml" value="0.2245" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/table_inside.xml" value="0.1" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/table_outside.xml" value="0.1" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/timer.xml" value="0.1" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/tlh1911xml.xml" value="0.221" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/drawable/truelovexml.xml" value="0.221" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_feed.xml" value="0.264" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_feedrecommendation.xml" value="0.4" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_feedtip.xml" value="0.264" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_group.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_herdinggroup.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_houndgroup.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_kcal.xml" value="0.1" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_login.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_nonsportinggroup.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_recommend_spot.xml" value="0.264" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_register.xml" value="0.23448275862068965" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_sprtinggroup.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_terriergroup.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_toygroup.xml" value="0.264" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_walkingtool.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/basillious/googlemap/app/src/main/res/layout/activity_workinggroup.xml" value="0.34739583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
